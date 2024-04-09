@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id" class="bg-slate-900">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Afgan Prasetyawan">
+  <meta name="description" content="Sebuah website tebak huruf-huruf hiragana untuk memperdalam pengetahuan tentang huruf hiragana dan katanan dengan tampilan cantik dan cepat">
+  <title>hiragana dan katakana</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="flex flex-col justify-center items-center w-screen h-[90vh] text-white font-mono gap-2">
+  <h3 class="title font-bold text-2sm text-sky-300">Hiragana</h3>
+  <div class="flex flex-col justify-center items-center border-2 rounded-xl w-[80vw] h-[90vw] gap-10 font-bold border-slate-800">
+    <div class="flex flex-row justify-between w-[90%]">
+      <h3 class="answered-parrent opacity-50">answer: <span class="answered text-yellow-100"></span></h3>
+      <h3 class="switch text-sky-300">あ</h3>
+    </div>
+    <h3 class="result opacity-50">.</h3>
+    <h3 class="hiragana text-2xl"></h3>
+    <input type="text" class="answer border-b-2 border-white outline-0 text-center bg-transparent" value="afgan">
+    <div class="flex flex-row justify-around w-[90%]">
+    <!--<button class="kocak">kocak</button>-->
+      <!--<img class="show" src="../../src/show.svg" alt="show" />-->
+      <!--<img class="next"src="../../src/skip.svg" alt="next" />-->
+      <!--<img class="submit" src="../../src/plane.svg" alt="submit" />-->
+      <button class="show opacity-50 text-yellow-100">show</button>
+      <button class="next">next</button>
+      <button class="submit">submit</button>
+    </div>
+  </div>
+<script src="src/source.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
